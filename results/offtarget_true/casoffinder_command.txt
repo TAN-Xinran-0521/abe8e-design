@@ -1,0 +1,1 @@
+D:/TZS/tools/cas-offinder/cas-offinder.exe D:\TZS\results\offtarget_true\casoffinder_input.txt G D:\TZS\results\offtarget_true\casoffinder_output.txt

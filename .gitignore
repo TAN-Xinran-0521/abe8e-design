@@ -1,0 +1,24 @@
+
+# Core release staging exclusions
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+/genomes/
+/tools/
+/hf_cache/
+/torch_cache/
+/data/features/
+/data/features_dnabert/
+/results/user_runs/
+/.core_patch_01_applied
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

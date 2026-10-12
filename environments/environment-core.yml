@@ -1,0 +1,14 @@
+name: abe8e-core-check
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - pandas==2.3.3
+      - scipy==1.15.2
+      - scikit-learn==1.7.2
+      - xgboost==3.2.0
+      - biopython==1.87
+      - ViennaRNA==2.7.2

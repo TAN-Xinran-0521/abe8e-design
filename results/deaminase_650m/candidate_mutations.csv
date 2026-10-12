@@ -1,0 +1,16 @@
+region,position,wt_aa,mut_aa,mutation,logp_wt,logp_mut,delta_logp,is_known_8e_site
+specificity_loop,151,P,R,P151R,-8.029,-0.241,7.788,False
+catalytic_core,83,F,L,F83L,-7.888,-0.165,7.724,False
+specificity_loop,148,Y,F,Y148F,-6.668,-0.002,6.666,True
+substrate_channel,107,N,D,N107D,-6.456,-0.03,6.426,False
+substrate_channel,110,R,T,R110T,-6.934,-0.819,6.116,True
+specificity_loop,145,C,Q,C145Q,-6.741,-0.674,6.067,False
+specificity_loop,156,N,K,N156K,-5.04,-0.322,4.719,False
+specificity_loop,155,F,K,F155K,-5.132,-0.507,4.626,False
+substrate_channel,105,V,A,V105A,-4.241,-0.14,4.101,False
+substrate_channel,122,Y,H,Y122H,-4.759,-1.099,3.659,False
+substrate_channel,108,S,P,S108P,-3.681,-0.944,2.737,True
+catalytic_core,69,M,L,M69L,-2.664,-0.503,2.16,False
+catalytic_core,67,L,Q,L67Q,-2.517,-0.995,1.523,False
+catalytic_core,87,V,L,V87L,-2.268,-0.995,1.272,False
+catalytic_core,77,A,C,A77C,-1.839,-0.645,1.195,False

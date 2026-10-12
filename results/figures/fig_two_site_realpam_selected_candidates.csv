@@ -1,0 +1,3 @@
+﻿site,cas_variant,grna,predicted_potential_off_target_sites,selection_rule,source_csv,pred_efficiency,input_rank
+HFE c.845G>A,SpCas9,ACGTACCAGGTGGAGCACCC,79,minimum count within supplied site table,D:\TZS\results\hfe_offtarget_real\real_vs_nnn_comparison.csv,0.335,2
+LMNA c.1824C>T,VRQR,GGTCCACCCACCTGGGCTCC,2074,minimum count within supplied site table,D:\TZS\results\lmna_offtarget_real\real_vs_nnn_comparison.csv,0.218,1

@@ -1,0 +1,60 @@
+{
+  "n_mutations": 44,
+  "repeats_per_mutation": 5,
+  "predicted_stabilizing_average_lt_zero": 23,
+  "maximum_raw_minus_wt_vs_dif_error": 9.200000000009201e-05,
+  "maximum_average_vs_mean_dif_error": 5.999999999950489e-06,
+  "maximum_historical_ddg_rounding_error": 0.0004959999999999964,
+  "maximum_historical_sd_rounding_error": 0.0004597000000000004,
+  "max_reported_sd_vs_population_sd_error": 2.2161729875055936e-06,
+  "max_reported_sd_vs_sample_sd_error": 0.04551731965083944,
+  "checks": {
+    "raw_dif_within_0.001": true,
+    "average_mean_within_0.0001": true,
+    "historical_ddg_within_0.000501": true,
+    "historical_sd_within_0.000501": true
+  },
+  "matrix_checks": [
+    {
+      "model": "esm2_35m",
+      "n_checked": 15,
+      "max_absolute_error": 0.00046565628051720154,
+      "tolerance": 0.01
+    },
+    {
+      "model": "esm1v_650m",
+      "n_checked": 15,
+      "max_absolute_error": 0.00047644615173325633,
+      "tolerance": 0.01
+    },
+    {
+      "model": "esm_if1",
+      "n_checked": 20,
+      "max_absolute_error": 0.00048348999023417605,
+      "tolerance": 0.01
+    }
+  ],
+  "sha256": {
+    "individual": "f307a7ea75a932c6ecfb1b4656378071b0378a836a6d7b387aff195b2bb424d5",
+    "average": "f721ee90a4716ff4e1a5d7f10d6e38e48d6ff75d0794f967a09d47fc8e2ef7ff",
+    "dif": "d31520c0de41289986950a569daf325b8ef623489229e1f3f6ada8fe392443b8",
+    "raw": "f4ed2c6d9ac5af2d6bf01eba6c6eb0d392b3bab078a601ad2145e6843e097810",
+    "candidates": "5f5fb880e650b336a98110157107c3c9391a910e8f8c23e0b0456a239694c85b",
+    "historical_ddg": "460a1a13bd6793ede159261ae1c9c8ca61d819fd22f313c4b25bf91fb0230f59",
+    "fasta": "bff8e12fb94f3fc84e446f51ceec26d56a0d5a66387c0282e93a17fc95fcbfbf",
+    "esm2_35m_matrix": "b4d75febdbb616142c61a09ad7f1024e1075de894d27d9ab1a4a5b611a3a7698",
+    "esm2_35m_candidates": "16444ad47b132ba6c8588dd65a228ee3bbaa322e7057c420d69508f214645e0f",
+    "esm1v_650m_matrix": "66b06a167def654d12ea1a2647b0cff6fbc07c44bdab2c47d52a7bcec263d168",
+    "esm1v_650m_candidates": "7b8dadef1a1428a73f8fa07c0e0a822ba2a25d83ff252d40e7d9000cbd078aee",
+    "esm_if1_matrix": "5a22a39db45cfcf6ebda479a9bd3e8bdd364b9ded9eae6f334d5e35d12c75bac",
+    "esm_if1_candidates": "6c3633287bc26c800f05df6ed0a5cfe0a0ead5c2836cdfbcc27bb93f870f6b77"
+  },
+  "limitations": [
+    "Reanalysis of saved outputs, not a new FoldX run.",
+    "SD reflects repeated computational runs, not experimental uncertainty.",
+    "Sequence-score average is an exploratory uncalibrated aggregation.",
+    "Correlation is conditional on this selected candidate set.",
+    "Structural methods share predicted-structure input.",
+    "Tolerance checks account for printed precision; inspect failures, do not tune them away."
+  ]
+}

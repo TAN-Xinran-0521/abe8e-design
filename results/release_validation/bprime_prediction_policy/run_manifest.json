@@ -1,0 +1,71 @@
+{
+  "purpose": "Read-only prediction-policy audit; not model selection.",
+  "feature_recipe": "bprime_83_v1",
+  "model_sha256": "14d959e408971322732ffe6d7ffdad5acaa5caa2be851a355925f64dbfc05dd6",
+  "historical_results_sha256": "2241d81dfdcaefd9931dbaefc58f0b9eb38363984571cb6db3b621eb59263cc5",
+  "split_sha256": {
+    "val": "f3dacde3c5d5ea58d39f353e5da91283bc6687cd280e6334fca91bf109f62083",
+    "test": "a348dc6396f4d19f5aaf247e463d9583b478c7198f56eeb8990978d0efeb199c"
+  },
+  "script_sha256": "cb71b3abca6f74b8c1b72de9f9a6d1eaf5fa3bb18965a50902fbd66baa4c264b",
+  "feature_script_sha256": "f3ef14111d30fca56bdd388b4ec7f81da4ff6b6c19c6ce3af5d4ca4be2150e55",
+  "versions": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.2",
+    "scikit_learn": "1.7.2",
+    "xgboost": "3.2.0",
+    "biopython": "1.87",
+    "viennarna": "2.7.2"
+  },
+  "results": {
+    "val": {
+      "n": 3328,
+      "raw_min": -0.016930557787418365,
+      "raw_max": 0.6033722758293152,
+      "n_below_zero": 90,
+      "n_above_one": 0,
+      "n_changed_by_clipping": 90,
+      "raw_metrics": {
+        "spearman": 0.6766656680927033,
+        "pearson": 0.6424416927709684,
+        "mae": 0.10824286206838754,
+        "rmse": 0.16013110758668123
+      },
+      "clipped_metrics": {
+        "spearman": 0.676672358839313,
+        "pearson": 0.6425224020351123,
+        "mae": 0.10810949001564563,
+        "rmse": 0.16012778084204127
+      }
+    },
+    "test": {
+      "n": 3329,
+      "raw_min": -0.023116014897823334,
+      "raw_max": 0.5807585120201111,
+      "n_below_zero": 108,
+      "n_above_one": 0,
+      "n_changed_by_clipping": 108,
+      "raw_metrics": {
+        "spearman": 0.670049192932404,
+        "pearson": 0.6284928046659439,
+        "mae": 0.10876274617229263,
+        "rmse": 0.16205752634400217
+      },
+      "clipped_metrics": {
+        "spearman": 0.6700606317332447,
+        "pearson": 0.6285309169256572,
+        "mae": 0.10859826298510473,
+        "rmse": 0.16205289864321185
+      }
+    }
+  },
+  "notes": [
+    "No retraining or data-split changes were performed.",
+    "Historical metrics use raw predictions.",
+    "Current design inference clips predictions to [0,1].",
+    "Differences are reported rather than tuned away.",
+    "This audit does not repair calibration-set reuse."
+  ]
+}

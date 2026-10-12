@@ -1,0 +1,121 @@
+Dataset path: data/raw/efficiency_ABE8e_raw.csv
+Shape: (28962, 39)
+Columns:
+ - grna
+ - pam_sequence
+ - sequence
+ - full_context_sequence
+ - full_context_sequence_padded
+ - protospace_position
+ - pam_index
+ - cell
+ - base_editor
+ - energy_1
+ - energy_2
+ - energy_3
+ - energy_4
+ - energy_5
+ - energy_6
+ - energy_7
+ - energy_8
+ - energy_9
+ - energy_10
+ - energy_11
+ - energy_12
+ - energy_13
+ - energy_14
+ - energy_15
+ - energy_16
+ - energy_17
+ - energy_18
+ - energy_19
+ - energy_20
+ - energy_21
+ - energy_22
+ - energy_23
+ - energy_24
+ - free_energy
+ - melt_temperature_grna
+ - melt_temperature_target
+ - efficiency_full_grna_calculated
+ - efficiency_full_grna_reported
+ - study_id
+PASS: all required columns exist
+base_editor
+ABE8e    28962
+PASS: single editor dataset
+
+grna length distribution:
+grna
+20    28962
+
+sequence length distribution:
+sequence
+40    25546
+20     3416
+
+full_context_sequence length distribution:
+full_context_sequence
+79    25546
+20     3416
+count    3416.000000
+mean        0.313863
+std         0.314300
+min         0.031621
+25%         0.067939
+50%         0.156677
+75%         0.496231
+max         0.999689
+
+Missing label:
+25546
+
+Zero efficiency:
+0
+efficiency_full_grna_calculated    0.882052
+efficiency_full_grna_reported      0.232408
+pam_sequence                       0.117948
+energy_1                           0.068158
+energy_2                           0.068158
+energy_6                           0.068158
+energy_5                           0.068158
+energy_22                          0.068158
+energy_21                          0.068158
+energy_15                          0.068158
+energy_16                          0.068158
+energy_19                          0.068158
+energy_20                          0.068158
+energy_4                           0.068158
+energy_3                           0.068158
+energy_11                          0.068158
+energy_12                          0.068158
+energy_9                           0.068158
+energy_10                          0.068158
+energy_13                          0.068158
+
+cell distribution:
+cell
+HEK293T    28962
+
+study_id distribution:
+study_id
+3    25546
+4     3416
+Duplicated rows: 0
+Duplicated sequences: 0
+Energy features: 24
+['energy_1', 'energy_2', 'energy_3', 'energy_4', 'energy_5', 'energy_6', 'energy_7', 'energy_8', 'energy_9', 'energy_10', 'energy_11', 'energy_12', 'energy_13', 'energy_14', 'energy_15', 'energy_16', 'energy_17', 'energy_18', 'energy_19', 'energy_20', 'energy_21', 'energy_22', 'energy_23', 'energy_24']
+WARNING: efficiency_full_grna_reported exists
+WARNING: efficiency_full_grna_calculated exists
+
+Recommended prediction target:
+efficiency_full_grna_calculated
+
+Do NOT use:
+- edited_count
+- total_count
+- reported efficiency
+as input features.
+
+Validation report saved:
+data/raw/efficiency_validation_report.txt

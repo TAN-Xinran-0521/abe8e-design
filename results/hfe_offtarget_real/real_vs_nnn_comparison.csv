@@ -1,0 +1,4 @@
+rank,grna,cas_variant,pred_efficiency,real_total_offtargets,nnn_total_offtargets,real_over_nnn_pct
+1,TACGTACCAGGTGGAGCACC,SpRY,0.245,360,654,55.0
+2,ACGTACCAGGTGGAGCACCC,SpCas9,0.335,79,800,9.9
+3,CGTACCAGGTGGAGCACCCA,SpCas9-NG,0.288,336,957,35.1

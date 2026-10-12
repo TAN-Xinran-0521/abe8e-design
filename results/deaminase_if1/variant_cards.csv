@@ -1,0 +1,21 @@
+variant_name,mutation,region,delta_logp,expected_effect,rationale
+TadA-8e_H95R,H95R,catalytic_core,3.435,stability / fold-consensus (activity residue caution),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_G66A,G66A,catalytic_core,2.852,stability / fold-consensus (activity residue caution),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_H95A,H95A,catalytic_core,2.669,stability / fold-consensus (activity residue caution),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_L67E,L67E,catalytic_core,2.556,stability / fold-consensus (activity residue caution),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_H95E,H95E,catalytic_core,2.345,stability / fold-consensus (activity residue caution),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_G49S,G49S,n_terminal,3.738,"N-terminal, effect uncertain","structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_A47R,A47R,n_terminal,3.242,"N-terminal, effect uncertain","structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_A47E,A47E,n_terminal,3.101,"N-terminal, effect uncertain","structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_W44Y,W44Y,n_terminal,2.921,"N-terminal, effect uncertain","structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_A47Q,A47Q,n_terminal,2.753,"N-terminal, effect uncertain","structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_C145E,C145E,specificity_loop,4.001,specificity-loop tuning (window narrowing),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_C145D,C145D,specificity_loop,3.753,specificity-loop tuning (window narrowing),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_C145N,C145N,specificity_loop,3.526,specificity-loop tuning (window narrowing),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_C145Q,C145Q,specificity_loop,3.371,specificity-loop tuning (window narrowing),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_C145K,C145K,specificity_loop,3.226,specificity-loop tuning (window narrowing),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_N126P,N126P,substrate_channel,3.82,substrate-channel remodeling (window/specificity),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_S108E,S108E,substrate_channel,2.405,substrate-channel remodeling (window/specificity),structure-conditioned IF1 favors this substitution; overlaps known 8e site (method sanity)
+TadA-8e_T132V,T132V,substrate_channel,2.112,substrate-channel remodeling (window/specificity),"structure-conditioned IF1 favors this substitution; novel candidate, verify with structure+wetlab"
+TadA-8e_S108P,S108P,substrate_channel,1.995,substrate-channel remodeling (window/specificity),structure-conditioned IF1 favors this substitution; overlaps known 8e site (method sanity)
+TadA-8e_R110Y,R110Y,substrate_channel,1.785,substrate-channel remodeling (window/specificity),structure-conditioned IF1 favors this substitution; overlaps known 8e site (method sanity)

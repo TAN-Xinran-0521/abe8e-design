@@ -1,0 +1,6 @@
+strategy,mechanism,tradeoff
+Split-AAV (intein),Split editor across 2 AAVs; intein-mediated protein trans-splicing reconstitutes full editor in vivo.,"Proven for SpCas9-BE; ~2x viral dose, reconstitution efficiency varies."
+Dual-AAV (split-intein N/C),N- and C-terminal halves on separate vectors.,Standard workaround for >4.7kb editors.
+Miniature Cas (Cas12f/CasMINI),Replace SpCas9 with ~500aa effector.,Single-AAV feasible; may trade off activity/PAM range.
+Deaminase truncation/engineering,Trim non-essential TadA regions; our ESM candidates target stability/specificity.,"Marginal size gain; main value is specificity, not size."
+Non-viral (LNP mRNA/RNP),Deliver editor as mRNA or RNP in lipid nanoparticles.,No cargo-size limit; transient expression lowers off-target exposure.

@@ -1,0 +1,5 @@
+chassis,approx_total_bp,size_note,delivery_strategy,fits_single_aav
+SpCas9-ABE8e (standard),5949,exceeds single AAV,split-AAV / dual-vector,False
+SaCas9-ABE8e,5049,"SaCas9 ~3159bp (~1053aa), smaller",borderline; needs minimal regulatory parts,False
+Un1Cas12f1-ABE (miniBE),2698,Cas12f1 ~1500bp (~500aa) ultra-small,fits single AAV; STUminiBE-type design,True
+CasMINI / enAsCas12f,2748,engineered miniature effector,single-AAV feasible,True

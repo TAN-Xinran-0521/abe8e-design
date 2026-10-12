@@ -1,0 +1,5 @@
+model_score,n,spearman,p_value,p_value_policy,score_policy
+esm2_35m,44,-0.03847780126849894,0.8041522826025486,"two-sided, unadjusted",full precision; saved matrix subtraction
+esm1v_650m,44,0.2545454545454545,0.09542538956013835,"two-sided, unadjusted",full precision; saved matrix subtraction
+esm_seq_mean,44,0.21916842847075405,0.1528916114627122,"two-sided, unadjusted",full precision; saved matrix subtraction
+esm_if1,44,-0.4786469344608879,0.0010139508880828937,"two-sided, unadjusted",full precision; saved matrix subtraction

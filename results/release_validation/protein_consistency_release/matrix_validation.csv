@@ -1,0 +1,4 @@
+model,n_checked,maximum_absolute_error,absolute_tolerance
+esm2_35m,15,0.00046565628051720154,0.01
+esm1v_650m,15,0.00047644615173325633,0.01
+esm_if1,20,0.00048348999023417605,0.01

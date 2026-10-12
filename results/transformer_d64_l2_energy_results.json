@@ -1,0 +1,39 @@
+{
+  "model_name": "transformer_d64_l2_energy",
+  "use_energy": true,
+  "best_epoch": 79,
+  "config": {
+    "d_model": 64,
+    "nhead": 4,
+    "num_layers": 2,
+    "dim_feedforward": 128,
+    "dropout": 0.1,
+    "batch_size": 64,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "warmup_steps": 500
+  },
+  "metrics": {
+    "train": {
+      "loss": 0.021871596646866373,
+      "spearman": 0.7604067067271191,
+      "pearson": 0.7088342308998108,
+      "mae": 0.09946606308221817,
+      "rmse": 0.14789048845271735
+    },
+    "val": {
+      "loss": 0.02276445821357461,
+      "spearman": 0.7380614590279755,
+      "pearson": 0.6919122338294983,
+      "mae": 0.10259989649057388,
+      "rmse": 0.15087894945853889
+    },
+    "test": {
+      "loss": 0.02359916566325294,
+      "spearman": 0.7353249791921238,
+      "pearson": 0.6784980893135071,
+      "mae": 0.10263049602508545,
+      "rmse": 0.15362018974663472
+    }
+  }
+}

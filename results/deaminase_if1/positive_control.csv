@@ -1,0 +1,9 @@
+mutation,status,top5_recall,delta_logp,rank_in_20aa
+A108S,not_favored,False,-1.122,9
+T110R,not_favored,False,-0.62,13
+D118N,not_favored,True,-1.753,2
+H121N,RECALLED,True,9.824,1
+Y146D,RECALLED,True,6.244,2
+F148Y,RECALLED,True,0.53,1
+T165I,not_favored,False,-0.068,10
+D166N,not_favored,False,-0.01,12

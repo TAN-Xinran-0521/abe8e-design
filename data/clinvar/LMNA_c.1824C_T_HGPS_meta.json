@@ -1,0 +1,18 @@
+{
+  "variant_name": "LMNA_c.1824C>T_HGPS",
+  "gene": "LMNA",
+  "assembly": "GRCh38/hg38",
+  "chrom": "chr1",
+  "target_pos_1based": 156138613,
+  "ref": "C",
+  "alt": "T",
+  "strand_note": "coordinates are on + strand; ABE edits the antisense A for a +strand C>T mutation",
+  "flank": 40,
+  "window_start_1based": 156138573,
+  "window_end_1based": 156138653,
+  "target_index_in_context_0based": 40,
+  "wt_context": "CCGACAAGGCATCTGCCAGCGGCTCAGGAGCCCAGGTGGGCGGACCCATCTCCTCTGGCTCTTCTGCCTCCAGTGTCACGG",
+  "patient_context": "CCGACAAGGCATCTGCCAGCGGCTCAGGAGCCCAGGTGGGTGGACCCATCTCCTCTGGCTCTTCTGCCTCCAGTGTCACGG",
+  "patient_target_base": "T",
+  "soft_masked_repeat_in_window": false
+}

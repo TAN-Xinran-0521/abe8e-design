@@ -1,0 +1,6 @@
+cas_variant,pam,n_candidates,best_pred_eff
+SpCas9,NGG,1,0.335
+SpCas9-NG,NGN,2,0.335
+SpG,NGN,2,0.335
+VRQR,NGA,0,
+SpRY,NRN,3,0.335

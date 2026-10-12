@@ -1,0 +1,4 @@
+model,recall_delta_pos,recall_top5,n
+ESM2-35M,2,5,8
+ESM1v-650M,3,4,8
+ESM-IF1,3,4,8

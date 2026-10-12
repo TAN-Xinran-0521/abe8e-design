@@ -1,0 +1,4 @@
+rank,grna,pam,cas_variant,strand,target_pos,pred_efficiency,bystander_A,offtarget_risk,ot_seed,ot_gc,ot_homopolymer,ot_complexity,composite_score,ot_chrom,ot_start,ot_end,pareto_optimal
+1,GGTCCACCCACCTGGGCTCC,TGA,VRQR,-,6,0.218,0,0.327,0.187,1.0,0.0,0.259,-0.011,chr1,156138599,156138618,True
+2,GTCCACCCACCTGGGCTCCT,GAG,SpRY,-,5,0.196,0,0.331,0.198,1.0,0.0,0.259,-0.021,chr1,156138598,156138617,False
+3,TCCACCCACCTGGGCTCCTG,AGC,SpCas9-NG,-,4,0.261,1,0.332,0.187,1.0,0.0,0.285,-0.07,chr1,156138597,156138616,True

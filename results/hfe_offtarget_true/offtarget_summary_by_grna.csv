@@ -1,0 +1,4 @@
+grna,total_offtargets,on_target_hits,offtarget_risk_raw,hit_mm0,hit_mm1,hit_mm2,hit_mm3,hit_mm4
+ACGTACCAGGTGGAGCACCC,800,1,72.33203125,0,0,2,85,713
+CGTACCAGGTGGAGCACCCA,957,1,92.00390625,0,0,1,66,890
+TACGTACCAGGTGGAGCACC,654,1,59.80859375,0,0,0,46,608

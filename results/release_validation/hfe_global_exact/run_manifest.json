@@ -1,0 +1,64 @@
+{
+  "analysis": "HFE saved-output exact-coordinate reanalysis",
+  "python": "3.10.20",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "command": [
+    "scripts\\validate_hfe_global_ranking.py"
+  ],
+  "candidate_input_sha256": "0aa97b50ba433024cfddfe859e7301a3c9b208f36a8f866aa2bd6f77d8836c38",
+  "parser_script_sha256": "446a38bca95aa30692bd656fc278fe4aa8666f84a0e0236f469e8b0f24ec36d1",
+  "validation_script_sha256": "19fc30a484ebf8362d5af7f966e5040e26c5fe68c8e69ea2732fc80c69bec4a1",
+  "genome_search_rerun": false,
+  "ranking_weights": {
+    "efficiency": 0.4,
+    "bystander": 0.3,
+    "genome_score": 0.3
+  },
+  "risk_normalization": "log1p(raw)/log1p(max_raw), within this HFE candidate set",
+  "bystander_metric": "empirical position-weighted score",
+  "notes": [
+    "Genome-hit weighting is heuristic, not an experimentally calibrated probability.",
+    "Scores are candidate-set dependent and not directly comparable across loci.",
+    "Saved input/output consistency was checked; genome-search completeness was not revalidated.",
+    "Historical column names may remain in intermediate files."
+  ],
+  "runs": [
+    {
+      "variant": "SpCas9",
+      "pam": "NGG",
+      "max_mismatches": 4,
+      "input_sha256": "143701fd4719f3ef427d1b2403970f6d5e7eb46bda9928269d3bb41265b9c821",
+      "raw_output_sha256": "41d3110499a9219e7d73a5850e0d4f475d274cd714e1c16fd5d6e3073d36561e",
+      "genome_path_recorded_in_original_input": "D:/TZS/genomes/hg38",
+      "genome_checksum_verified": false,
+      "parsed_hits": 80,
+      "intended_target_hits": 1,
+      "remaining_hits": 79
+    },
+    {
+      "variant": "SpCas9-NG",
+      "pam": "NGN",
+      "max_mismatches": 4,
+      "input_sha256": "5697a94012e9aa889b30196001f164935459a9d057094d01e1361f848aa5c1aa",
+      "raw_output_sha256": "3278e8b69fb3431c738670e01b0ebd0f6a8f55f696e2652f4180e2729c9dff1a",
+      "genome_path_recorded_in_original_input": "D:/TZS/genomes/hg38",
+      "genome_checksum_verified": false,
+      "parsed_hits": 337,
+      "intended_target_hits": 1,
+      "remaining_hits": 336
+    },
+    {
+      "variant": "SpRY",
+      "pam": "NRN",
+      "max_mismatches": 4,
+      "input_sha256": "11825003fb6dba8303fd7432e249bcc407c8c7f0ae330d724c8f4c3ba018e643",
+      "raw_output_sha256": "4f60e6bfa3b7ce551467f5232636a28bd6d7cde86b3ca6dfc01c12b309d1c9b1",
+      "genome_path_recorded_in_original_input": "D:/TZS/genomes/hg38",
+      "genome_checksum_verified": false,
+      "parsed_hits": 361,
+      "intended_target_hits": 1,
+      "remaining_hits": 360
+    }
+  ]
+}

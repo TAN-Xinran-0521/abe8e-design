@@ -1,0 +1,3 @@
+rank,grna,pam,strand,target_pos,pred_efficiency,bystander_A,offtarget_risk,ot_seed,ot_gc,ot_homopolymer,ot_complexity,composite_score,pareto_optimal
+1,GCACCAAGGGAATAAGTCGT,GGG,-,6,0.377,1,0.085,0.159,0.0,0.0,0.106,0.05,True
+2,AGCACCAAGGGAATAAGTCG,TGG,-,7,0.373,2,0.076,0.132,0.0,0.0,0.116,-0.024,True

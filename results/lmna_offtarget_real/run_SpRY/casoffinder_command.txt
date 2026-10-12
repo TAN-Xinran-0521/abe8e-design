@@ -1,0 +1,1 @@
+D:\TZS\tools\cas-offinder\cas-offinder.exe D:\TZS\results\lmna_offtarget_real\run_SpRY\casoffinder_input.txt G D:\TZS\results\lmna_offtarget_real\run_SpRY\casoffinder_output.txt

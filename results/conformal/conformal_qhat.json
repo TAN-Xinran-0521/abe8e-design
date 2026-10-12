@@ -1,0 +1,18 @@
+{
+  "model": "B'(seq80+grna_phys3)",
+  "n_calib": 3328,
+  "levels": {
+    "80": {
+      "alpha": 0.2,
+      "q_hat": 0.1762677003783264,
+      "empirical_coverage": 0.8005407029137879,
+      "mean_width": 0.3184873163700104
+    },
+    "90": {
+      "alpha": 0.1,
+      "q_hat": 0.2651236951351166,
+      "empirical_coverage": 0.8954641033343347,
+      "mean_width": 0.4496667683124542
+    }
+  }
+}

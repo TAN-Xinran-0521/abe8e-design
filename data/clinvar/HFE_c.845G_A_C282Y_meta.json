@@ -1,0 +1,18 @@
+{
+  "variant_name": "HFE_c.845G>A_C282Y",
+  "gene": "LMNA",
+  "assembly": "GRCh38/hg38",
+  "chrom": "chr6",
+  "target_pos_1based": 26092913,
+  "ref": "G",
+  "alt": "A",
+  "strand_note": "coordinates are on + strand; ABE edits the antisense A for a +strand C>T mutation",
+  "flank": 40,
+  "window_start_1based": 26092873,
+  "window_end_1based": 26092953,
+  "target_index_in_context_0based": 40,
+  "wt_context": "ACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGTGCCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTG",
+  "patient_context": "ACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGTACCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTG",
+  "patient_target_base": "A",
+  "soft_masked_repeat_in_window": false
+}

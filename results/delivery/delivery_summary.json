@@ -1,0 +1,8 @@
+{
+  "aav_single_cargo_limit_bp": 4700,
+  "editor_core_bp (Cas9+TadA+linker)": 4899,
+  "full_cassette_bp (incl. sgRNA+promoter+polyA)": 5949,
+  "exceeds_single_aav": true,
+  "overflow_bp": 1249,
+  "conclusion": "Standard SpCas9-ABE8e cassette (~5949 bp) exceeds the ~4.7kb single-AAV limit, so requires split/dual-AAV or a miniature-Cas chassis. Deaminase engineering (our ESM candidates) improves specificity, not delivery size."
+}

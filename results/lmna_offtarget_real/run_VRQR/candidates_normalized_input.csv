@@ -1,0 +1,2 @@
+candidate_id,grna,pam,cas_variant,strand,target_pos,predicted_efficiency,bystander_A_count,offtarget_risk,ot_seed,ot_gc,ot_homopolymer,ot_complexity,composite_score,ot_chrom,ot_start,ot_end,pareto_optimal
+1,GGTCCACCCACCTGGGCTCC,TGA,VRQR,-,6,0.218,0,0.327,0.187,1.0,0.0,0.259,-0.011,chr1,156138599,156138618,True

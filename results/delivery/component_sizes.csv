@@ -1,0 +1,7 @@
+component,coding_bp,note
+"SpCas9 (nCas9, D10A nickase)",4101,~1368 aa; dominates the payload
+TadA-8e deaminase (monomer),498,166 aa; single-monomer ABE8e
+Linkers + BP-NLS x2,300,32aa linker + NLS elements
+sgRNA cassette (U6 + scaffold + 20nt),500,promoter + scaffold + spacer
+Minimal promoter (e.g. EFS),400,short pol II promoter
+polyA signal,150,e.g. SV40 late polyA (short)

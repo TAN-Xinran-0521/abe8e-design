@@ -1,0 +1,9 @@
+mutation,status,top5_recall,delta_logp,rank_in_20aa,note
+A108S,not_favored,True,-0.4,3,7.10->8e evolution mutation (lit. A109S)
+T110R,not_favored,False,-1.073,15,"7.10->8e, enhances DNA binding (lit. T111R)"
+D118N,not_favored,True,-2.062,3,7.10->8e evolution mutation (lit. D119N)
+H121N,RECALLED,True,1.033,3,7.10->8e evolution mutation (lit. H122N)
+Y146D,RECALLED,True,2.527,3,7.10->8e evolution mutation (lit. Y147D)
+F148Y,not_favored,True,-0.819,2,7.10->8e evolution mutation (lit. F149Y)
+T165I,not_favored,False,-0.843,14,7.10->8e evolution mutation (lit. T166I)
+D166N,not_favored,False,-0.137,12,7.10->8e evolution mutation (lit. D167N)

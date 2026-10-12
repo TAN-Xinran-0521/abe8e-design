@@ -1,0 +1,54 @@
+{
+  "analysis_version": "consistency_release_v2",
+  "python": "3.10.20",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.15.2",
+  "n_candidates": 44,
+  "negative_mean_ddg_count": 23,
+  "matrix_column_order": "ACDEFGHIKLMNPQRSTVWY",
+  "matrix_candidate_checks": [
+    {
+      "model": "esm2_35m",
+      "n_checked": 15,
+      "maximum_absolute_error": 0.00046565628051720154,
+      "absolute_tolerance": 0.01
+    },
+    {
+      "model": "esm1v_650m",
+      "n_checked": 15,
+      "maximum_absolute_error": 0.00047644615173325633,
+      "absolute_tolerance": 0.01
+    },
+    {
+      "model": "esm_if1",
+      "n_checked": 20,
+      "maximum_absolute_error": 0.00048348999023417605,
+      "absolute_tolerance": 0.01
+    }
+  ],
+  "input_sha256": {
+    "foldx": "5e353f2171c548d40ccb6c0895d725bcaed4541fc5513d02c30fe200f3ef55b7",
+    "fasta": "bff8e12fb94f3fc84e446f51ceec26d56a0d5a66387c0282e93a17fc95fcbfbf",
+    "esm2_35m_matrix": "b4d75febdbb616142c61a09ad7f1024e1075de894d27d9ab1a4a5b611a3a7698",
+    "esm2_35m_candidates": "16444ad47b132ba6c8588dd65a228ee3bbaa322e7057c420d69508f214645e0f",
+    "esm1v_650m_matrix": "66b06a167def654d12ea1a2647b0cff6fbc07c44bdab2c47d52a7bcec263d168",
+    "esm1v_650m_candidates": "7b8dadef1a1428a73f8fa07c0e0a822ba2a25d83ff252d40e7d9000cbd078aee",
+    "esm_if1_matrix": "5a22a39db45cfcf6ebda479a9bd3e8bdd364b9ded9eae6f334d5e35d12c75bac",
+    "esm_if1_candidates": "6c3633287bc26c800f05df6ed0a5cfe0a0ead5c2836cdfbcc27bb93f870f6b77"
+  },
+  "script_sha256": "364745820402c354f9ea47db00d9d009646a9199a02b840eecd1204d4e09e653",
+  "mutation_validation_module_sha256": "784600dd0503f4865fd3b2c12d4e1108a77c0426897fc7f79a240cf2dc5c539c",
+  "plots_generated": false,
+  "limitations": [
+    "Saved-output analysis; no FoldX or ESM execution.",
+    "Protein-model scores are not calibrated functional-effect estimates.",
+    "Sequence-score mean is an exploratory aggregation.",
+    "P-values are unadjusted across the four reported correlations.",
+    "Results are conditional on this selected candidate set.",
+    "Structural methods share predicted-structure input.",
+    "Nomination count means presence in source candidate tables, not proven function.",
+    "No median-based consensus label or cross-model priority score is produced.",
+    "No automatic literature-numbering conversion is performed."
+  ]
+}
